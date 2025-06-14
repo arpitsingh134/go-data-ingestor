@@ -1,4 +1,3 @@
-````markdown
 # Go Data Ingestion Service
 
 This project is a beginner-friendly, modular, and containerized data ingestion pipeline built with **Go** using **design patterns** and clean project structure. It fetches log data from a public API, applies transformation, and stores it in a **MongoDB** database running inside a Docker container.
