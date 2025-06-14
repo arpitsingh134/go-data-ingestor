@@ -1,12 +1,3 @@
-Here's the updated and enriched `README.md` with:
-
-* ✅ Improved **project description**
-* ✅ Included instructions to **view data via Mongo Express**
-* ✅ Included instructions to **view data via Mongo shell inside Docker**
-* ✅ Maintained clean formatting
-
----
-
 ````markdown
 # Go Data Ingestion Service
 
@@ -29,7 +20,7 @@ It also includes:
 ├── config/
 │   └── config.go                # MongoDB and app config
 ├── internal/
-│   ├── fetcher/                 # API fetching logic
+│   ├── fetcher/                 # API fetching logic	
 │   ├── transformer/             # Data transformation
 │   ├── repository/              # MongoDB interaction
 │   └── models/                  # Data model definitions
