@@ -10,27 +10,6 @@ It also includes:
 
 ---
 
-## 🧱 Project Structure
-
-```bash
-.
-├── cmd/
-│   └── main.go                  # Entry point
-├── config/
-│   └── config.go                # MongoDB and app config
-├── internal/
-│   ├── fetcher/                 # API fetching logic	
-│   ├── transformer/             # Data transformation
-│   ├── repository/              # MongoDB interaction
-│   └── models/                  # Data model definitions
-├── test/                        # Unit tests
-├── go.mod
-├── Dockerfile
-├── docker-compose.yml
-└── README.md
-````
-
----
 
 ## 🚀 Getting Started
 
@@ -139,7 +118,25 @@ Each record from the API is transformed to include:
 
 ---
 
-## 📬 Questions?
+## 🧱 Project Structure
 
-Feel free to reach out or open issues if you get stuck or want to contribute!
+```bash
+.
+├── cmd/
+│   └── main.go                  # Entry point
+├── config/
+│   └── config.go                # MongoDB and app config
+├── internal/
+│   ├── fetcher/                 # API fetching logic	
+│   ├── transformer/             # Data transformation
+│   ├── repository/              # MongoDB interaction
+│   └── models/                  # Data model definitions
+├── test/                        # Unit tests
+├── go.mod
+├── Dockerfile
+├── docker-compose.yml
+└── README.md
+````
+
+---
 
